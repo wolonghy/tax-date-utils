@@ -1,0 +1,29 @@
+/*
+ * Copyright 2026 Beijing Wolong Huiyan Technology Co., Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Core domain models for tax period handling — all implemented as immutable Java records.
+ *
+ * <p>Key models:</p>
+ * <ul>
+ *   <li>{@link com.wolonghy.taxdate.model.TaxPeriod} — tax period (month, quarter, half-year, year, per-occurrence)</li>
+ *   <li>{@link com.wolonghy.taxdate.model.DateRange} — inclusive date range with containment/overlap queries</li>
+ *   <li>{@link com.wolonghy.taxdate.model.DeclarationMonth} — declaration filing month</li>
+ * </ul>
+ *
+ * @author Zhang Ze
+ * @since 1.0.0
+ */
+package com.wolonghy.taxdate.model;
